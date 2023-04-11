@@ -20,7 +20,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'djoser',
-    
+    # с пустыми строками тест не проходит на PEP8
     'api',
     'posts',
 ]
