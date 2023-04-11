@@ -1,5 +1,4 @@
 import pytest
-
 from posts.models import Comment, Follow, Group, Post
 
 
