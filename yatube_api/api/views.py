@@ -16,6 +16,7 @@ class ListCreateViewSet(mixins.ListModelMixin, mixins.CreateModelMixin,
 
 
 class FollowViewSet(ListCreateViewSet):
+    """Вьюсет для подписок."""
     serializer_class = FollowSerializer
     filter_backends = [filters.SearchFilter]
     search_fields = ['user__username', 'following__username']
